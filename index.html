@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tourism</title>
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,32 +13,47 @@
 
 </head>
 <body>
+
 <div class="container">
     <div class="header">
         <nav class="menu">
+        
             <div class="vector">
                 <img src="/images/Vector (6).svg" alt="vector">
                 <div>Travel Portal</div>
             </div>
             <div>
-            <ul>
+            <ul id="menu">
                 <li class="menu-item">
-                    <a href="#">How It Works</a>
+                    <a href="#preview">How It Works</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">Plan Your Trip</a>
+                    <a href="#steps">Plan Your Trip</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">Destinations</a>
+                    <a href="#destinations">Destinations</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">Travel Stories</a>
+                    <a href="#stories">Travel Stories</a>
+                </li>
+                <li class="menu-item none">
+                    <a href="#">Account</a>
+                </li>
+                <li class="menu-item none">
+                    <a href="#">Social Media</a>
                 </li>
             </ul>
         </div>
             <button>Login</button>
-        </nav>
+        </nav>   
     </div>
+
+    <div class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div> 
+    <div class="popup"></div>
 
     <section id="preview">
         <div class="main">
@@ -172,6 +189,6 @@
     </div>
 </section>
 
-
+<script src="script.js"></script>
 </body>
 </html>
